@@ -13,7 +13,7 @@ uint32_t dhtDelayMS;
 uint32_t readTime;
 
 void WiFiEvent(WiFiEvent_t event) {
-  Serial.printf("WiFi:: event: %d\n", event);
+  //Serial.printf("WiFi:: event: %d\n", event);
   switch(event) {
     case WIFI_EVENT_STAMODE_GOT_IP:
       Serial.println("WiFi:: connected");
